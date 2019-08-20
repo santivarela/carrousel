@@ -1,0 +1,28 @@
+.main-container {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+    margin: auto;
+  }
+  .container {
+    width: auto;
+    max-height: 100px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+  }
+  
+  .item {
+    width: 220px;
+    height: 100px;
+    background-color: #5225bd;
+    margin: 0 10px;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
